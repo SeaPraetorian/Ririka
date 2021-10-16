@@ -145,7 +145,7 @@ h3 {
 
 #modal {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     padding-top: 50%;
     background-color: #000000c2;
     width: 100%;
@@ -260,7 +260,7 @@ iframe {
   animation: fade 1s;
 }
 .trending .arrow {
-  z-index: 10;
+  z-index: 2;
   position: absolute;
   margin: auto;
   top: 0;
