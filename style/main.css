@@ -319,6 +319,7 @@ iframe {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          flex-flow: row wrap;
 }
 
 .romantic .mask {
@@ -329,18 +330,23 @@ iframe {
 
 .romantic .anime1 {
   background-image: url("../img/your_name.jpg");
+  margin-bottom: 25px;
 }
 
 .romantic .anime2 {
   background-image: url("../img/garden_of_words.jpg");
+  margin-bottom: 25px;
 }
 
 .romantic .anime3 {
   background-image: url("../img/hello_world.jpg");
+  margin-bottom: 25px;
 }
 
 .romantic .anime4 {
   background-image: url("../img/fireworks.jpg");
+  margin-bottom: 25px;
+
 }
 
 .fantasy {
@@ -358,6 +364,7 @@ iframe {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          flex-flow: row wrap;
         }
 .fantasy .mask {
   position: relative;
@@ -367,18 +374,22 @@ iframe {
 
 .fantasy .anime1 {
   background-image: url("../img/whisker_away.png");
+  margin-bottom: 25px;
 }
 
 .fantasy .anime2 {
   background-image: url("../img/ponyo.jpg");
+  margin-bottom: 25px;
 }
 
 .fantasy .anime3 {
   background-image: url("../img/moving_castle.jpg");
+  margin-bottom: 25px;
 }
 
 .fantasy .anime4 {
   background-image: url("../img/totoro.jpg");
+  margin-bottom: 25px;
 }
 
 
@@ -397,6 +408,7 @@ iframe {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          flex-flow: row wrap;
 }
 
 .action .mask {
@@ -407,101 +419,22 @@ iframe {
 
 .action .anime1 {
  background-image: url("../img/kimetsu.jpg");
+ margin-bottom: 25px;
 }
 
 .action .anime2 {
   background-image: url("../img/Fate.jpg");
+  margin-bottom: 25px;
 }
 
 .action .anime3 {
   background-image: url("../img/Nogame.jpeg");
+  margin-bottom: 25px;
 }
 
 .action .anime4 {
   background-image: url("../img/Hero.jpg");
-}
-
-
-.upcome {
-  width: 100%;
-}
-
-.upcome .upcome-anime {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.upcome .mask {
-  position: relative;
-  width: 250px;
-  height: 400px;
-}
-
-.upcome .anime1 {
-  background-image: url("../img/SAO.jpg");
-}
-
-.upcome .anime2 {
-  background-image: url("../img/jjk.png");
-}
-
-.upcome .anime3 {
-  background-image: url("../img/GrandOrder.jpg");
-}
-
-.upcome .anime4 {
-  background-image: url("../img/Sailor.jpg");
-}
-
-
-.Nseason {
-  width: 100%;
-}
-
-.Nseason .season-anime {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-        }
-.Nseason .mask {
-  position: relative;
-  width: 250px;
-  height: 400px;
-}
-
-.Nseason .anime1 {
-  background-image: url("../img/komi.jfif");
-}
-
-.Nseason .anime2 {
-  background-image: url("../img/demon.jpg");
-}
-
-.Nseason .anime3 {
-  background-image: url("../img/chain.jpg");
-}
-
-.Nseason .anime4 {
-  background-image: url("../img/takt.jpeg");
-}
-
-.Nseason {
-  width: 100%;
+  margin-bottom: 25px;
 }
 
 
@@ -509,7 +442,6 @@ span{
   display: inline-block;
   font-size: 13px;
   float: right;
-  margin-top: 15px;
   font-weight: 700;
   text-transform: uppercase;
   color: #c8c8c8;
