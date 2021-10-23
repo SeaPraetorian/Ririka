@@ -153,10 +153,31 @@ h3 {
     text-align: center;
 }
 
-@media (min-width:900px) { 
-
+/* MEDIA QUERIES */
+@media only screen and (min-width : 992px){   
 #modal {
   padding-top: 150px;
+}
+
+.view{ 
+  padding-right: 40px;
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)   {
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+.view{
+  padding-right: 55px;
+}
+
 }
 
 }
@@ -328,7 +349,7 @@ iframe {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+           justify-content: space-around;
           flex-flow: row wrap;
 }
 
@@ -373,7 +394,7 @@ iframe {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
           flex-flow: row wrap;
         }
 .Nseason .mask {
@@ -414,4 +435,14 @@ span{
   text-transform: uppercase;
   color: #c8c8c8;
   letter-spacing: 2px;
+}
+
+.footer {
+  margin-top: 50px
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgb(1 1 1 / 47%);
+  text-align: center;
 }

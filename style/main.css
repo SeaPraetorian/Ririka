@@ -154,13 +154,32 @@ h3 {
     text-align: center;
 }
 
-@media (min-width:900px) { 
-
+@media only screen and (min-width : 992px){   
 #modal {
   padding-top: 150px;
 }
 
+.view{ 
+  padding-right: 40px;
 }
+
+}
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2)   {
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.view{
+  padding-right: 55px;
+}
+
+}
+
 iframe {
   text-align: center;
   margin: auto;
@@ -328,7 +347,7 @@ iframe {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
           flex-flow: row wrap;
 }
 
@@ -336,28 +355,26 @@ iframe {
   position: relative;
   width: 250px;
   height: 400px;
+  margin-bottom: 25px;
 }
 
 .romantic .anime1 {
   background-image: url("../img/your_name.jpg");
-  margin-bottom: 25px;
 }
 
 .romantic .anime2 {
   background-image: url("../img/garden_of_words.jpg");
-  margin-bottom: 25px;
 }
 
 .romantic .anime3 {
   background-image: url("../img/hello_world.jpg");
-  margin-bottom: 25px;
 }
 
 .romantic .anime4 {
   background-image: url("../img/fireworks.jpg");
-  margin-bottom: 25px;
 
 }
+
 
 .fantasy {
   width: 100%;
@@ -373,33 +390,31 @@ iframe {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
           flex-flow: row wrap;
         }
 .fantasy .mask {
   position: relative;
   width: 250px;
   height: 400px;
+  margin-bottom: 25px;
 }
 
 .fantasy .anime1 {
   background-image: url("../img/whisker_away.png");
-  margin-bottom: 25px;
 }
 
 .fantasy .anime2 {
   background-image: url("../img/ponyo.jpg");
-  margin-bottom: 25px;
 }
 
 .fantasy .anime3 {
   background-image: url("../img/moving_castle.jpg");
-  margin-bottom: 25px;
+  
 }
 
 .fantasy .anime4 {
   background-image: url("../img/totoro.jpg");
-  margin-bottom: 25px;
 }
 
 
@@ -417,7 +432,7 @@ iframe {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
           flex-flow: row wrap;
 }
 
@@ -425,26 +440,23 @@ iframe {
   position: relative;
   width: 250px;
   height: 400px;
+  margin-bottom: 25px;
 }
 
 .action .anime1 {
  background-image: url("../img/kimetsu.jpg");
- margin-bottom: 25px;
 }
 
 .action .anime2 {
   background-image: url("../img/Fate.jpg");
-  margin-bottom: 25px;
 }
 
 .action .anime3 {
   background-image: url("../img/Nogame.jpeg");
-  margin-bottom: 25px;
 }
 
 .action .anime4 {
   background-image: url("../img/Hero.jpg");
-  margin-bottom: 25px;
 }
 
 
@@ -457,3 +469,14 @@ span{
   color: #c8c8c8;
   letter-spacing: 2px;
 }
+
+.footer {
+  margin-top: 50px
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgb(1 1 1 / 47%);
+  text-align: center;
+}
+
